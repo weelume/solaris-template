@@ -1,0 +1,44 @@
+[
+  {
+    "device": "desktop",
+    "locale": "zh",
+    "invalid": "请完整填写必填项并检查电子邮箱格式。",
+    "valid": "本地校验通过。演示模式，内容尚未发送或保存。",
+    "switched": "http://127.0.0.1:43420/en/contact?plan=solar#request"
+  },
+  {
+    "device": "desktop",
+    "locale": "en",
+    "invalid": "Complete all required fields and check the email format.",
+    "valid": "Validation passed. Demo mode: your message has not been sent or saved.",
+    "switched": "http://127.0.0.1:43420/contact?plan=solar#request"
+  },
+  {
+    "device": "tablet",
+    "locale": "zh",
+    "invalid": "请完整填写必填项并检查电子邮箱格式。",
+    "valid": "本地校验通过。演示模式，内容尚未发送或保存。",
+    "switched": "http://127.0.0.1:43420/en/contact?plan=solar#request"
+  },
+  {
+    "device": "tablet",
+    "locale": "en",
+    "invalid": "Complete all required fields and check the email format.",
+    "valid": "Validation passed. Demo mode: your message has not been sent or saved.",
+    "switched": "http://127.0.0.1:43420/contact?plan=solar#request"
+  },
+  {
+    "device": "mobile",
+    "locale": "zh",
+    "invalid": "请完整填写必填项并检查电子邮箱格式。",
+    "valid": "本地校验通过。演示模式，内容尚未发送或保存。",
+    "switched": "http://127.0.0.1:43420/en/contact?plan=solar#request"
+  },
+  {
+    "device": "mobile",
+    "locale": "en",
+    "invalid": "Complete all required fields and check the email format.",
+    "valid": "Validation passed. Demo mode: your message has not been sent or saved.",
+    "switched": "http://127.0.0.1:43420/contact?plan=solar#request"
+  }
+]

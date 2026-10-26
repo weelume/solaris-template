@@ -1,0 +1,74 @@
+[
+  {
+    "path": "/",
+    "status": 200
+  },
+  {
+    "path": "/solutions",
+    "status": 200
+  },
+  {
+    "path": "/blog",
+    "status": 200
+  },
+  {
+    "path": "/blog/choosing-solar",
+    "status": 200
+  },
+  {
+    "path": "/blog/battery-storage",
+    "status": 200
+  },
+  {
+    "path": "/blog/system-care",
+    "status": 200
+  },
+  {
+    "path": "/contact",
+    "status": 200
+  },
+  {
+    "path": "/privacy",
+    "status": 200
+  },
+  {
+    "path": "/terms",
+    "status": 200
+  },
+  {
+    "path": "/en",
+    "status": 200
+  },
+  {
+    "path": "/en/solutions",
+    "status": 200
+  },
+  {
+    "path": "/en/blog",
+    "status": 200
+  },
+  {
+    "path": "/en/blog/choosing-solar",
+    "status": 200
+  },
+  {
+    "path": "/en/blog/battery-storage",
+    "status": 200
+  },
+  {
+    "path": "/en/blog/system-care",
+    "status": 200
+  },
+  {
+    "path": "/en/contact",
+    "status": 200
+  },
+  {
+    "path": "/en/privacy",
+    "status": 200
+  },
+  {
+    "path": "/en/terms",
+    "status": 200
+  }
+]

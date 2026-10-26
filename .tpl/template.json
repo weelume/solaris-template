@@ -1,0 +1,216 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "id": "solaris",
+  "gitUrl": "https://github.com/weelume/solaris-template",
+  "name": "Solaris · 智慧太阳能",
+  "localizedNames": {
+    "en": "Solaris · Smart solar energy"
+  },
+  "sceneId": "corporate-site",
+  "listed": false,
+  "tags": [
+    "清洁能源",
+    "太阳能",
+    "荧光黄绿",
+    "中英文",
+    "PC / iPad / H5"
+  ],
+  "summary": "住宅与商业太阳能品牌官网，包含动态项目轮播、系统方案、安装案例、能源知识与本地咨询演示。",
+  "accentColor": "#e3ff59",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "Solaris desktop home",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-solutions.webp",
+      "alt": "Solaris desktop solutions",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "solutions"
+    },
+    {
+      "src": "assets/desktop-blog.webp",
+      "alt": "Solaris desktop blog",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "Solaris desktop contact",
+      "device": "desktop",
+      "width": 1430,
+      "height": 993,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "Solaris tablet home",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-solutions.webp",
+      "alt": "Solaris tablet solutions",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "solutions"
+    },
+    {
+      "src": "assets/tablet-blog.webp",
+      "alt": "Solaris tablet blog",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "Solaris tablet contact",
+      "device": "tablet",
+      "width": 824,
+      "height": 1166,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "Solaris mobile home",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-solutions.webp",
+      "alt": "Solaris mobile solutions",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "solutions"
+    },
+    {
+      "src": "assets/mobile-blog.webp",
+      "alt": "Solaris mobile blog",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "blog"
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "Solaris mobile contact",
+      "device": "mobile",
+      "width": 380,
+      "height": 822,
+      "surfaceId": "site",
+      "pageSlug": "contact"
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "能源官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "solutions",
+          "title": "解决方案",
+          "localizedTitles": {
+            "en": "Solutions"
+          }
+        },
+        {
+          "slug": "blog",
+          "title": "能源日志",
+          "localizedTitles": {
+            "en": "Journal"
+          }
+        },
+        {
+          "slug": "blog/choosing-solar",
+          "title": "选择太阳能系统",
+          "localizedTitles": {
+            "en": "Choosing solar"
+          }
+        },
+        {
+          "slug": "blog/battery-storage",
+          "title": "太阳能与储能",
+          "localizedTitles": {
+            "en": "Solar and storage"
+          }
+        },
+        {
+          "slug": "blog/system-care",
+          "title": "系统维护",
+          "localizedTitles": {
+            "en": "System care"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系我们",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "privacy",
+          "title": "隐私政策",
+          "localizedTitles": {
+            "en": "Privacy"
+          }
+        },
+        {
+          "slug": "terms",
+          "title": "使用条款",
+          "localizedTitles": {
+            "en": "Terms"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "图片来自公开参考站，尚未确认商业再分发许可。字体许可单独保留。",
+    "redistributionAllowed": false
+  },
+  "version": "1.0.0"
+}

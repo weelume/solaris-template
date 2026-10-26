@@ -1,0 +1,37 @@
+{
+  "$schema": "./schemas/customization.schema.json",
+  "format": "git-template-customization",
+  "formatVersion": "0.2.0",
+  "entries": [
+    {
+      "id": "brand",
+      "title": "品牌与内容",
+      "description": "修改双语品牌、内容、主题与页面",
+      "files": [
+        {
+          "path": "src/features/site-templates/catalog/solaris/config/brand.ts",
+          "kind": "file",
+          "purpose": "品牌"
+        },
+        {
+          "path": "src/features/site-templates/catalog/solaris/content.ts",
+          "kind": "file",
+          "purpose": "双语内容"
+        },
+        {
+          "path": "src/features/site-templates/catalog/solaris/theme.css",
+          "kind": "file",
+          "purpose": "主题和响应式"
+        }
+      ],
+      "constraints": [
+        "保持中英双语与原生键盘操作"
+      ],
+      "checks": [
+        "typecheck",
+        "lint",
+        "build"
+      ]
+    }
+  ]
+}

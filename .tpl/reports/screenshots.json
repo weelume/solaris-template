@@ -1,0 +1,74 @@
+[
+  {
+    "file": "desktop-blog.webp",
+    "format": "jpeg",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "desktop-contact.webp",
+    "format": "jpeg",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "desktop-home.webp",
+    "format": "jpeg",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "desktop-solutions.webp",
+    "format": "jpeg",
+    "width": 1430,
+    "height": 993
+  },
+  {
+    "file": "mobile-blog.webp",
+    "format": "jpeg",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "mobile-contact.webp",
+    "format": "jpeg",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "mobile-home.webp",
+    "format": "jpeg",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "mobile-solutions.webp",
+    "format": "jpeg",
+    "width": 380,
+    "height": 822
+  },
+  {
+    "file": "tablet-blog.webp",
+    "format": "jpeg",
+    "width": 824,
+    "height": 1166
+  },
+  {
+    "file": "tablet-contact.webp",
+    "format": "jpeg",
+    "width": 824,
+    "height": 1166
+  },
+  {
+    "file": "tablet-home.webp",
+    "format": "jpeg",
+    "width": 824,
+    "height": 1166
+  },
+  {
+    "file": "tablet-solutions.webp",
+    "format": "jpeg",
+    "width": 824,
+    "height": 1166
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "device": "desktop",
+    "entry": {
+      "first": "opacity:0;filter:blur(10px);transform:translateY(20px)",
+      "last": "opacity:0;filter:blur(10px);transform:translateY(20px)",
+      "y": 0
+    },
+    "running": {
+      "bars": [
+        "transform: scaleX(0.5736);",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)"
+      ],
+      "captionHeight": 107.58333587646484,
+      "counters": [
+        "10+",
+        "500+",
+        "20年"
+      ],
+      "hero": "transform: translateY(150px) scale(1.1);",
+      "reel": "/templates/solaris/yz7dpTXEV87kiBDV7C7XVI568Q.png",
+      "y": 1084
+    },
+    "pausedStable": true,
+    "switched": [
+      "/templates/solaris/UAp3aOgZXmMPRG2Gr2r0ECoqzU.png"
+    ],
+    "faq": "true",
+    "review": "Michael Brooks",
+    "end": {
+      "broken": [],
+      "client": 1430,
+      "scroll": 1430,
+      "y": 8119.33349609375
+    }
+  },
+  {
+    "device": "tablet",
+    "entry": {
+      "first": "opacity:0;filter:blur(10px);transform:translateY(20px)",
+      "last": "opacity:0;filter:blur(10px);transform:translateY(20px)",
+      "y": 0
+    },
+    "running": {
+      "bars": [
+        "transform: scaleX(0.674675);",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)"
+      ],
+      "captionHeight": 113.67708587646484,
+      "counters": [
+        "10+",
+        "500+",
+        "20年"
+      ],
+      "hero": "transform: translateY(150px) scale(1.1);",
+      "reel": "/templates/solaris/yz7dpTXEV87kiBDV7C7XVI568Q.png",
+      "y": 826
+    },
+    "pausedStable": true,
+    "switched": [
+      "/templates/solaris/UAp3aOgZXmMPRG2Gr2r0ECoqzU.png"
+    ],
+    "faq": "true",
+    "review": "Michael Brooks",
+    "end": {
+      "broken": [],
+      "client": 824,
+      "scroll": 824,
+      "y": 6808
+    }
+  },
+  {
+    "device": "mobile",
+    "entry": {
+      "first": "opacity:0;filter:blur(10px);transform:translateY(20px)",
+      "last": "opacity:0;filter:blur(10px);transform:translateY(20px)",
+      "y": 0
+    },
+    "running": {
+      "bars": [
+        "transform: scaleX(0.579775);",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)"
+      ],
+      "captionHeight": 0,
+      "counters": [
+        "0+",
+        "0+",
+        "0年"
+      ],
+      "hero": "transform: translateY(150px) scale(1.1);",
+      "reel": "/templates/solaris/yz7dpTXEV87kiBDV7C7XVI568Q.png",
+      "y": 659.3333129882812
+    },
+    "pausedStable": true,
+    "switched": [
+      "/templates/solaris/UAp3aOgZXmMPRG2Gr2r0ECoqzU.png"
+    ],
+    "faq": "true",
+    "review": "Michael Brooks",
+    "end": {
+      "broken": [],
+      "client": 380,
+      "scroll": 380,
+      "y": 10600.6669921875
+    }
+  }
+]

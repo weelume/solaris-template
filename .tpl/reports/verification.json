@@ -1,0 +1,98 @@
+{
+  "$schema": "../schemas/verification.schema.json",
+  "format": "git-template-verification",
+  "formatVersion": "0.2.0",
+  "status": "passed",
+  "checkedAt": "2026-10-26T08:06:50.182Z",
+  "sourceCommit": null,
+  "sourceDigest": "f1727db5cebd47b16f765b990bba1435577d9ee072e522b2887d2c9456b0ce4a",
+  "environment": {
+    "platform": "local-wsl-linux",
+    "arch": "x64",
+    "node": "v24.16.0",
+    "packageManager": "pnpm@9.15.4",
+    "cleanDirectory": true,
+    "localGitClone": false
+  },
+  "checks": [
+    {
+      "id": "install",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "install",
+        "--frozen-lockfile"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T08:06:27.992Z",
+      "finishedAt": "2026-10-26T08:06:28.693Z"
+    },
+    {
+      "id": "typecheck",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "typecheck"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T08:06:28.694Z",
+      "finishedAt": "2026-10-26T08:06:29.925Z"
+    },
+    {
+      "id": "lint",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "lint"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T08:06:29.925Z",
+      "finishedAt": "2026-10-26T08:06:32.105Z"
+    },
+    {
+      "id": "test",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "test"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T08:06:32.105Z",
+      "finishedAt": "2026-10-26T08:06:32.450Z"
+    },
+    {
+      "id": "build",
+      "cwd": ".",
+      "argv": [
+        "pnpm",
+        "run",
+        "build"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "startedAt": "2026-10-26T08:06:32.451Z",
+      "finishedAt": "2026-10-26T08:06:48.889Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "web",
+      "status": "passed",
+      "stopped": true,
+      "checkedAt": "2026-10-26T08:06:50.182Z"
+    }
+  ],
+  "limitations": [
+    "原站图片商业再分发许可尚未确认，保持 listed=false。",
+    "系统减少动态效果的实际模拟尚未验证。",
+    "浏览器截图按真实编码尺寸登记，CSS 视口与图像尺寸有所不同。",
+    "页面切换过渡、滚动条滑块鼠标拖动及触摸惯性未做完整交互对照；不声称所有动效逐像素一致。"
+  ]
+}
