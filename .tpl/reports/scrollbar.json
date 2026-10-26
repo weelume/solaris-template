@@ -1,0 +1,45 @@
+{
+  "devices": [
+    {
+      "device": "desktop",
+      "client": 1430,
+      "round": "999px",
+      "scroll": 1430,
+      "thumb": "rgb(165, 172, 153)",
+      "width": 1440,
+      "y": 876
+    },
+    {
+      "device": "tablet",
+      "client": 824,
+      "round": "999px",
+      "scroll": 824,
+      "thumb": "rgb(165, 172, 153)",
+      "width": 834,
+      "y": 1032
+    },
+    {
+      "device": "mobile",
+      "client": 380,
+      "round": "999px",
+      "scroll": 380,
+      "thumb": "rgb(165, 172, 153)",
+      "width": 390,
+      "y": 738
+    }
+  ],
+  "menuOpen": {
+    "bodyWidth": 380,
+    "locked": "hidden",
+    "menuWidth": 380,
+    "navWidth": 380
+  },
+  "menuClosed": {
+    "navWidth": 380,
+    "overflow": ""
+  },
+  "limits": [
+    "原生页面滑块区域仍不在工具可交互内容视口内，未声称鼠标拖动已验证。",
+    "系统覆盖式滚动条、真实触摸惯性与高对比模式未模拟。"
+  ]
+}

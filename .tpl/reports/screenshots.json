@@ -1,74 +1,74 @@
 [
   {
     "file": "desktop-blog.webp",
-    "format": "jpeg",
     "width": 1430,
-    "height": 993
+    "height": 993,
+    "format": "jpeg"
   },
   {
     "file": "desktop-contact.webp",
-    "format": "jpeg",
     "width": 1430,
-    "height": 993
+    "height": 993,
+    "format": "jpeg"
   },
   {
     "file": "desktop-home.webp",
-    "format": "jpeg",
     "width": 1430,
-    "height": 993
+    "height": 993,
+    "format": "jpeg"
   },
   {
     "file": "desktop-solutions.webp",
-    "format": "jpeg",
     "width": 1430,
-    "height": 993
+    "height": 993,
+    "format": "jpeg"
   },
   {
     "file": "mobile-blog.webp",
-    "format": "jpeg",
     "width": 380,
-    "height": 822
+    "height": 822,
+    "format": "jpeg"
   },
   {
     "file": "mobile-contact.webp",
-    "format": "jpeg",
     "width": 380,
-    "height": 822
+    "height": 822,
+    "format": "jpeg"
   },
   {
     "file": "mobile-home.webp",
-    "format": "jpeg",
     "width": 380,
-    "height": 822
+    "height": 822,
+    "format": "jpeg"
   },
   {
     "file": "mobile-solutions.webp",
-    "format": "jpeg",
     "width": 380,
-    "height": 822
+    "height": 822,
+    "format": "jpeg"
   },
   {
     "file": "tablet-blog.webp",
-    "format": "jpeg",
     "width": 824,
-    "height": 1166
+    "height": 1166,
+    "format": "jpeg"
   },
   {
     "file": "tablet-contact.webp",
-    "format": "jpeg",
     "width": 824,
-    "height": 1166
+    "height": 1166,
+    "format": "jpeg"
   },
   {
     "file": "tablet-home.webp",
-    "format": "jpeg",
     "width": 824,
-    "height": 1166
+    "height": 1166,
+    "format": "jpeg"
   },
   {
     "file": "tablet-solutions.webp",
-    "format": "jpeg",
     "width": 824,
-    "height": 1166
+    "height": 1166,
+    "format": "jpeg"
   }
 ]

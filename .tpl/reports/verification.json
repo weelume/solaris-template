@@ -3,9 +3,9 @@
   "format": "git-template-verification",
   "formatVersion": "0.2.0",
   "status": "passed",
-  "checkedAt": "2026-10-26T10:13:11.720Z",
+  "checkedAt": "2026-10-26T12:43:52.676Z",
   "sourceCommit": null,
-  "sourceDigest": "dc0c2e0af9c65f5e771d7bd5d99c75daa830b20c4778a6d4df6dea50485b94df",
+  "sourceDigest": "1467bbb58499f4459bc1108f0d8d166f47d917a453675579cc944e90c462c5b5",
   "environment": {
     "platform": "local-wsl-linux",
     "arch": "x64",
@@ -25,8 +25,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-26T10:12:48.440Z",
-      "finishedAt": "2026-10-26T10:12:49.223Z"
+      "startedAt": "2026-10-26T12:43:25.929Z",
+      "finishedAt": "2026-10-26T12:43:26.830Z"
     },
     {
       "id": "typecheck",
@@ -38,8 +38,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-26T10:12:49.224Z",
-      "finishedAt": "2026-10-26T10:12:50.666Z"
+      "startedAt": "2026-10-26T12:43:26.832Z",
+      "finishedAt": "2026-10-26T12:43:29.980Z"
     },
     {
       "id": "lint",
@@ -51,8 +51,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-26T10:12:50.666Z",
-      "finishedAt": "2026-10-26T10:12:52.748Z"
+      "startedAt": "2026-10-26T12:43:29.981Z",
+      "finishedAt": "2026-10-26T12:43:32.603Z"
     },
     {
       "id": "test",
@@ -64,8 +64,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-26T10:12:52.748Z",
-      "finishedAt": "2026-10-26T10:12:53.103Z"
+      "startedAt": "2026-10-26T12:43:32.603Z",
+      "finishedAt": "2026-10-26T12:43:33.046Z"
     },
     {
       "id": "build",
@@ -77,8 +77,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "startedAt": "2026-10-26T10:12:53.103Z",
-      "finishedAt": "2026-10-26T10:13:10.642Z"
+      "startedAt": "2026-10-26T12:43:33.046Z",
+      "finishedAt": "2026-10-26T12:43:51.441Z"
     }
   ],
   "services": [
@@ -86,7 +86,7 @@
       "id": "web",
       "status": "passed",
       "stopped": true,
-      "checkedAt": "2026-10-26T10:13:11.720Z"
+      "checkedAt": "2026-10-26T12:43:52.676Z"
     }
   ],
   "limitations": [
