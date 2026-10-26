@@ -1,0 +1,129 @@
+{
+  "beforeFix": {
+    "resumeBefore": {
+      "active": "暂停轮播",
+      "bars": [
+        "transform: scaleX(1);",
+        "transform: scaleX(0.28335);",
+        "transform: scaleX(0);",
+        "transform: scaleX(0);"
+      ],
+      "pressed": "false"
+    },
+    "resumeAfter": [
+      "transform: scaleX(1);",
+      "transform: scaleX(0.28335);",
+      "transform: scaleX(0);",
+      "transform: scaleX(0);"
+    ],
+    "stuck": true
+  },
+  "pointerAfterFix": {
+    "fixedBefore": {
+      "bars": [
+        "transform: scaleX(0.359775);",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)"
+      ],
+      "focusVisible": false,
+      "focused": "暂停轮播",
+      "hover": false
+    },
+    "fixedAfter": [
+      "transform: scaleX(0.6848);",
+      "transform:scaleX(0)",
+      "transform:scaleX(0)",
+      "transform:scaleX(0)"
+    ],
+    "resumed": true
+  },
+  "keyboardAfterFix": {
+    "keyboardPaused": {
+      "active": "播放轮播",
+      "bars": [
+        "transform: scaleX(1);",
+        "transform: scaleX(1);",
+        "transform: scaleX(1);",
+        "transform: scaleX(0.84175);"
+      ],
+      "visible": true
+    },
+    "keyboardStable": [
+      "transform: scaleX(1);",
+      "transform: scaleX(1);",
+      "transform: scaleX(1);",
+      "transform: scaleX(0.84175);"
+    ],
+    "keyboardBefore": [
+      "transform: scaleX(1);",
+      "transform: scaleX(1);",
+      "transform: scaleX(1);",
+      "transform: scaleX(0.84175);"
+    ],
+    "keyboardAfter": {
+      "active": "暂停轮播",
+      "bars": [
+        "transform: scaleX(0.0917);",
+        "transform: scaleX(0);",
+        "transform: scaleX(0);",
+        "transform: scaleX(0);"
+      ],
+      "visible": true
+    }
+  },
+  "devices": [
+    {
+      "device": "tablet",
+      "viewport": [
+        834,
+        1180
+      ],
+      "before": {
+        "active": "暂停轮播",
+        "bars": [
+          "transform: scaleX(0.244975);",
+          "transform:scaleX(0)",
+          "transform:scaleX(0)",
+          "transform:scaleX(0)"
+        ],
+        "hover": false
+      },
+      "after": [
+        "transform: scaleX(0.52415);",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)"
+      ],
+      "resumed": true
+    },
+    {
+      "device": "mobile",
+      "viewport": [
+        390,
+        844
+      ],
+      "before": {
+        "active": "暂停轮播",
+        "bars": [
+          "transform: scaleX(0.27565);",
+          "transform:scaleX(0)",
+          "transform:scaleX(0)",
+          "transform:scaleX(0)"
+        ],
+        "hover": false
+      },
+      "after": [
+        "transform: scaleX(0.554825);",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)",
+        "transform:scaleX(0)"
+      ],
+      "resumed": true
+    }
+  ],
+  "toolLimits": [
+    "内置浏览器只提供 viewport/visibility，不提供系统减少动态效果或真实触摸模拟。",
+    "原生滚动条滑块位于控制接口可交互内容视口之外，坐标拖动未能验证。"
+  ]
+}
