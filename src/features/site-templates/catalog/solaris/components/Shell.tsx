@@ -33,7 +33,9 @@ export function Shell({ children, basePath, locale = 'zh' }: SiteTemplatePagePro
     const contact = `${basePath}/contact`;
     const name = host.brandName?.[locale] ?? brand.name[locale];
     const links = [{ label: copy('首页', 'Home'), href: home('#hero') }, { label: copy('关于我们', 'About'), href: home('#about') }, { label: copy('解决方案', 'Solutions'), href: home('#solution') }, { label: copy('项目案例', 'Projects'), href: home('#projects') }];
-    useEffect(() => { document.documentElement.classList.add('solaris-active'); const previous = document.documentElement.lang; document.documentElement.lang = locale === 'zh' ? 'zh-CN' : 'en'; return () => { document.documentElement.classList.remove('solaris-active'); document.documentElement.lang = previous; }; }, [locale]);
+    useEffect(() => { document.documentElement.classList.add('solaris-active');
+        document.body.classList.add('solaris-active'); const previous = document.documentElement.lang; document.documentElement.lang = locale === 'zh' ? 'zh-CN' : 'en'; return () => { document.documentElement.classList.remove('solaris-active');
+            document.body.classList.remove('solaris-active'); document.documentElement.lang = previous; }; }, [locale]);
     useEffect(() => {
         if (!menu)
             return;

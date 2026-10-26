@@ -18,3 +18,11 @@ html.solaris-active{--sol-scroll-thumb:#a9b18f;--sol-scroll-hover:#7c875a;scroll
 @media(prefers-reduced-motion:reduce){.solaris *{animation:none!important;transition:none!important;scroll-behavior:auto!important}.solaris .sol-word{filter:none!important;transform:none!important;opacity:1!important}.solaris .sol-trust-window{mask-image:none}.solaris .sol-trust-track{width:max-content}.solaris .sol-house{transform:none!important}}
 
 @media(max-width:650px){.solaris .sol-reel{aspect-ratio:1.2}.solaris .sol-reel-caption{display:none}}
+
+/* 标题显式继承本模板字体；页面滑块同时覆盖 html 与 body 的原生滚动容器。 */
+.solaris :is(h1,h2,h3,h4,h5,h6){font-family:inherit}
+body.solaris-active{--sol-scroll-thumb:#a9b18f;--sol-scroll-hover:#7c875a;scrollbar-width:thin;scrollbar-color:var(--sol-scroll-thumb) #f7f9f1}
+body.solaris-active::-webkit-scrollbar{width:9px}
+body.solaris-active::-webkit-scrollbar-track{background:#f7f9f1}
+body.solaris-active::-webkit-scrollbar-thumb{background:var(--sol-scroll-thumb);border-radius:9px;border:2px solid #f7f9f1}
+body.solaris-active::-webkit-scrollbar-thumb:hover{background:var(--sol-scroll-hover)}
